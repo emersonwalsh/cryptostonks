@@ -23,7 +23,7 @@ export default function NftContainer(props) {
                 <div key={`crypto-stonks-image-${idx}`}
                     className={styles.nft}
                 >
-                    <img src={nft.image} atl="todo" />
+                    <img src={nft.image} alt={nft.name} />
                 </div>
             ))}
             </div>
