@@ -4,8 +4,8 @@ import styles from './Landing.module.css';
 import Fab from '@material-ui/core/Fab';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 
-const moveForce = 30; // max popup movement in pixels
-const rotateForce = 20; // max popup rotation in deg
+const moveForce = 40; // max popup movement in pixels
+const rotateForce = 30; // max popup rotation in deg
 
 export default function Landing() {
     const containerEle = useRef(null);
