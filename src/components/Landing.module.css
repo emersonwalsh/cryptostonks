@@ -1,0 +1,124 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.scrollButton {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+  
+.movingZone {
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    height: 286px;
+    width: 331px;
+
+    margin: -143px 0 0 -165.5px;
+    perspective: 800px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+
+.popup {
+    position: absolute;
+    height: 286px;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.popup:before {
+    content: '';
+    position: absolute;
+    left:5%; top:5%;
+    width:90%; height:90%;
+    border-radius: inherit;
+    /* background: rgba(0,0,0,.1); */
+    /* box-shadow: 0 0 40px 20px rgba(0,0,0,.1); */
+    transform: translateZ(-100px);
+}
+.popupContent {
+    background: #444;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px 0 10px 0;
+}
+.popupText {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: center;
+    transform: translateZ(15px);
+}
+.popupText b {
+    color: coral;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    /* height: 48vmin; */
+    height: 286px;
+    width: 331px;
+    pointer-events: none;
+}
+  
+.enter-container {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.input-root {
+    border-radius: 4px;
+}
+  
+.enter-button {
+    padding-left: 10px;
+}
+  
+/* @media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+         transform: rotate(360deg);
+    }
+} */
+  
