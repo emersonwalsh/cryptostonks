@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import logo from './../logo-black.png';
 import styles from './Landing.module.css';
-import Fab from '@material-ui/core/Fab';
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+import Button from '@material-ui/core/Button';
 
 const moveForce = 40; // max popup movement in pixels
 const rotateForce = 30; // max popup rotation in deg
@@ -32,17 +31,17 @@ export default function Landing() {
 
     return (
         <>
-            <header ref={containerEle} className={styles.header} onMouseMove={(e) => handleMouseMove(e)}>
+            <div ref={containerEle} className={styles.landing} onMouseMove={(e) => handleMouseMove(e)}>
                 <div className={styles.movingZone}>
                     <div ref={popupEle} className={styles.popup}>
                         <img src={logo} className={styles.logo} alt="logo" />
                     </div>
                 </div>
-            </header>
+            </div>
             <div className={styles.scrollButton}>
-                <Fab color="primary" aria-label="add" onClick={scroll} >
-                    <ArrowDownwardIcon />
-                </Fab>
+                <Button variant="outlined" onClick={scroll}>
+                    Explore
+                </Button>
             </div>
         </>
     );

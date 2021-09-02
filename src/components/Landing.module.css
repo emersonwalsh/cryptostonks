@@ -1,10 +1,24 @@
-.header {
-    min-height: 100vh;
+.landing {
+    position: fixed;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .scrollButton {
@@ -14,26 +28,20 @@
     bottom: 0;
     left: 0;
     padding-bottom: 20px;
+    z-index: 2;
 }
 
-  
 .movingZone {
-
     position: absolute;
     top:50%;
     left:50%;
     height: 286px;
     width: 331px;
-
     margin: -143px 0 0 -165.5px;
     perspective: 800px;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    user-select: none;
     text-align: center;
 }
-
 
 .popup {
     position: absolute;
@@ -41,55 +49,28 @@
     box-sizing: border-box;
     transform-style: preserve-3d;
 }
+
 .popup:before {
     content: '';
     position: absolute;
     left:5%; top:5%;
     width:90%; height:90%;
     border-radius: inherit;
-    /* background: rgba(0,0,0,.1); */
-    /* box-shadow: 0 0 40px 20px rgba(0,0,0,.1); */
     transform: translateZ(-100px);
 }
+
 .popupContent {
     background: #444;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px 0 10px 0;
 }
-.popupText {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 100;
-    text-align: center;
-    transform: translateZ(15px);
-}
-.popupText b {
-    color: coral;
-    font-weight: 300;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .logo {
-    /* height: 48vmin; */
     height: 286px;
     width: 331px;
     pointer-events: none;
+    z-index: 1;
 }
   
 .enter-container {
@@ -106,19 +87,3 @@
 .enter-button {
     padding-left: 10px;
 }
-  
-/* @media (prefers-reduced-motion: no-preference) {
-    .logo {
-        animation: logo-spin infinite 20s linear;
-    }
-}
-
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-         transform: rotate(360deg);
-    }
-} */
-  

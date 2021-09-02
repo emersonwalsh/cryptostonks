@@ -1,28 +1,43 @@
 .fullPage {
-    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: 1010;
+    top: 100vh;
+    left: 0;
+    background: white;
 }
 
-.searchContainer {
-    padding: 10px;
-    width: calc(100%-20px);
-    text-align: left;
+.nav {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 20vh;
 }
 
-.container {
+.grid {
+    min-height: 100vh;
+    padding: 10%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .nft {
     position: relative;
-    width: 20%;
+    width: 33%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .nft {
+        width: 100%;
+    }
 }
 
 .nft:hover {
     background-color: black;
 }
-
 
 
 .nft img {

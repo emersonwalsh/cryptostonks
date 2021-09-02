@@ -58,6 +58,8 @@ const nfts = [
     //     price: 10,
     //     image: msft,
     // },
+
+
 ];
 
 export default nfts;

@@ -8,19 +8,22 @@ export default function NftContainer(props) {
     };
     return (
         <div className={styles.fullPage}>
-            <div className={styles.container}>
-            {nfts.map((nft, idx) => (
-                <div key={`crypto-stonks-image-${idx}`}
-                    className={styles.nft}
-                    onClick={() => handleClick(nft)}
-                >
-                    <img src={nft.image} alt={nft.name} />
-                    <div className={styles.overlay}>
-                        <div className={styles.overlayText}>I want</div>
-                    </div>
-                </div>
-            ))}
-            </div>
+            {/* <div className={styles.nav}>
+                Nav
+            </div> */}
+                <div className={styles.grid}>
+                    {nfts.map((nft, idx) => (
+                        <div key={`crypto-stonks-image-${idx}`}
+                            className={styles.nft}
+                            onClick={() => handleClick(nft)}
+                        >
+                            <img src={nft.image} alt={nft.name} />
+                            <div className={styles.overlay}>
+                                <div className={styles.overlayText}>i want</div>
+                            </div>
+                        </div>
+                    ))}
+                </div>            
         </div>
     );
 }
