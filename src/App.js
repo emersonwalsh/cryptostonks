@@ -1,16 +1,13 @@
 import './App.css';
 import Landing from './components/Landing';
-// import Footer from './components/Footer';
-
-import NftContainer from './components/NftContainer';
+import Content from './components/Content';
 
 
 function App() {
   return (
     <div className="App">
       <Landing />
-      <NftContainer />
-      {/* <Footer /> */}
+      <Content />
     </div>
   );
 }
