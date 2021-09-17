@@ -8,16 +8,25 @@
     text-align: center;
 }
 
+.ticker {
+    padding: 20px 0 0 0;
+}
+
+.tickerItem {
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 10px;
+}
+
 .nav {
     position: relative;
     left: 0;
     width: 100%;
-    padding: 75px 20px 0 20px;
+    padding: 100px 20px 0 20px;
 
 }
 
 .grid {
-    padding: 175px 5%;
+    padding: 125px 5% 150px 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
