@@ -48,6 +48,9 @@
     height: 286px;
     box-sizing: border-box;
     transform-style: preserve-3d;
+
+    transition-duration: 0.1s;
+    transition-property: transform;
 }
 
 .popup:before {

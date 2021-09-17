@@ -17,7 +17,11 @@ export default function NftCard(props) {
                     <p className={styles.ticker} >{`$${props.nft.ticker}`}</p>
 
                     {props.nft.link && 
-                        <Button variant="contained" color="primary" onClick={handleClick}>
+                        <Button variant="contained" onClick={handleClick}
+                          style={{
+                            backgroundColor: props.nft.color,
+                            color: 'white',
+                            }}>
                             Buy
                         </Button>
                     }

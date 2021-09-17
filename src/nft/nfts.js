@@ -12,6 +12,7 @@ const nfts = [
         name: 'Twitter',
         ticker: 'TWTR',
         status: 'available',
+        color: '#02a2f5',
         price: 64,
         image: twtr,
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837570671918972929',
