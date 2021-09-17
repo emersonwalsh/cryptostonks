@@ -7,7 +7,7 @@ export default function Footer() {
             <div className={styles.footer}>
                     &copy; 2021 <span className={styles.name}> CryptoStonks</span>
                 <div className={styles.links}>
-                    <a href="https://opensea.io/collection/getcryptostonks" target="_blank" rel="noreferrer">Open Sea</a>
+                    <a href="https://opensea.io/collection/cryptostonkexchange" target="_blank" rel="noreferrer">Open Sea</a>
                     
                 </div>
             </div>
