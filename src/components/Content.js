@@ -18,8 +18,8 @@ export default function Content(props) {
         <div className={styles.fullPage}>
 
             <div className={styles.ticker}>
-                <Ticker>
-                    {({ index }) => (<h2 className={styles.tickerItem}>${nfts[index % nfts.length].ticker}</h2>)}
+                <Ticker speed={2}>
+                    {({ index }) => (<h3 className={styles.tickerItem}>${nfts[index % nfts.length].ticker}</h3>)}
                 </Ticker>
             </div>
 
