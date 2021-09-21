@@ -1,24 +1,3 @@
-import aapl from '/images/AAPL.png';
-import amzn from '/images/AMZN.png';
-import baba from '/images/BABA.png';
-import brk from '/images/BRK.A.png';
-import cmcs from '/images/CMCS.A.png';
-import dis from '/images/DIS.png';
-import fb from '/images/FB.png';
-import goog from '/images/GOOG.png';
-import hd from '/images/HD.png';
-import jnj from '/images/JNJ.png';
-import msft from '/images/MSFT.png';
-import nvda from '/images/NVDA.png';
-import pg from '/images/PG.png';
-import t from '/images/T.png';
-import tsla from '/images/TSLA.png';
-import twtr from '/images/TWTR.png';
-import unh from '/images/UNH.png';
-import v from '/images/V.png';
-import vz from '/images/VZ.png';
-import wmt from '/images/WMT.png';
-
 const nfts = [
     {
         name: 'Apple',
@@ -27,7 +6,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: aapl,
+        image: '/images/AAPL.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837571771430600705',
     },
     {
@@ -37,7 +16,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: amzn,
+        image: '/images/AMZN.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837575069965484033',
     },
     {
@@ -47,7 +26,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: baba,
+        image: '/images/BABA.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837587164593389569',
     },
     {
@@ -57,7 +36,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: brk,
+        image: '/images/BRK.A.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837578368500367361',
     },
     {
@@ -67,7 +46,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: cmcs,
+        image: '/images/CMCS.A.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837591562639900673',
     },
     {
@@ -77,7 +56,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: dis,
+        image: '/images/DIS.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837590463128272897',
     },
     {
@@ -87,7 +66,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: fb,
+        image: '/images/FB.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837576169477111809',
     },
     {
@@ -97,7 +76,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: goog,
+        image: '/images/GOOG.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837573970453856257',
     },
     {
@@ -107,7 +86,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: hd,
+        image: '/images/HD.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837588264105017345',
     },
     {
@@ -117,7 +96,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: jnj,
+        image: '/images/JNJ.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837581667035250689',
     },
     {
@@ -127,7 +106,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: msft,
+        image: '/images/MSFT.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837572870942228481',
     },
     {
@@ -137,7 +116,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: nvda,
+        image: '/images/NVDA.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837579468011995137',
     },
     {
@@ -147,7 +126,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: pg,
+        image: '/images/PG.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837589363616645121',
     },
     {
@@ -157,7 +136,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: t,
+        image: '/images/T.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837586065081761793',
     },
     {
@@ -167,7 +146,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: tsla,
+        image: '/images/TSLA.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837577268988739585',
     },
     {
@@ -177,7 +156,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 64,
-        image: twtr,
+        image: '/images/TWTR.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837570671918972929',
     },
     {
@@ -187,7 +166,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: unh,
+        image: '/images/UNH.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837583866058506241',
     },
     {
@@ -197,7 +176,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: v,
+        image: '/images/V.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837580567523622913',
     },
     {
@@ -207,7 +186,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: vz,
+        image: '/images/VZ.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837584965570134017',
     },
     {
@@ -217,7 +196,7 @@ const nfts = [
         status: 'available',
         color: '#02a2f5',
         price: 100,
-        image: wmt,
+        image: '/images/WMT.png',
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837582766546878465',
     },
 ];
