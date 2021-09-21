@@ -13,9 +13,7 @@ export default function NftCard(props) {
                     <img src={props.nft.image} alt={props.nft.name} />
                 </div>
                 <div className={styles.cardBack}>
-                    <h3 className={styles.name} >{props.nft.name}</h3>
-                    <p className={styles.ticker} >{`$${props.nft.ticker}`}</p>
-
+                    <p className={styles.name} >{props.nft.name}</p>
                     {props.nft.link && 
                         <Button variant="contained" onClick={handleClick}
                           style={{

@@ -9,24 +9,24 @@
 }
 
 .ticker {
-    padding: 20px 0 0 0;
+    padding: 25px 0 0 0;
 }
 
 .tickerItem {
-    color: rgba(0, 0, 0, 0.54);
-    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.3);
+    padding-right: 15px;
 }
 
 .nav {
     position: relative;
     left: 0;
     width: 100%;
-    padding: 100px 20px 0 20px;
+    padding: 75px 20px 0 20px;
 
 }
 
 .grid {
-    padding: 125px 5% 150px 5%;
+    padding: 75px 5% 75px 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

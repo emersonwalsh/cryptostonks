@@ -4,13 +4,15 @@ import Footer from './Footer';
 import nfts from './../nft/nfts';
 import IconButton from '@material-ui/core/IconButton';
 import TwitterIcon from '@material-ui/icons/Twitter';
-
 import Ticker from 'react-ticker';
 
 export default function Content(props) {
     const handleClick = () => {
         window.open('https://twitter.com/GetCryptoStonks', '_blank')
     };
+
+    // Sort nfts by their mint number
+    nfts.sort((a, b) => (a.number > b.number) ? 1 : -1);
 
     return (
         <div className={styles.fullPage}>
