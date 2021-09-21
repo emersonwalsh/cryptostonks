@@ -1,5 +1,5 @@
 import aapl from './images/AAPL.png';
-// import amzn from './images/AMZN.png';
+import amzn from './images/AMZN.png';
 import baba from './images/BABA.png';
 import brk from './images/BRK.A.png';
 import cmcs from './images/CMCS.A.png';
@@ -30,16 +30,16 @@ const nfts = [
         image: aapl,
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837571771430600705',
     },
-    // {
-    //     name: 'Amazon',
-    //     ticker: 'AMZN',
-    //     number: 5,
-    //     status: 'available',
-    //     color: '#02a2f5',
-    //     price: 100,
-    //     image: amzn,
-    //     link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837575069965484033',
-    // },
+    {
+        name: 'Amazon',
+        ticker: 'AMZN',
+        number: 5,
+        status: 'available',
+        color: '#02a2f5',
+        price: 100,
+        image: amzn,
+        link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837575069965484033',
+    },
     {
         name: 'Alibaba',
         ticker: 'BABA',

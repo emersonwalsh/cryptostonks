@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4f7e7804.chunk.css",
-    "main.js": "/static/js/main.851f058f.chunk.js",
-    "main.js.map": "/static/js/main.851f058f.chunk.js.map",
+    "main.js": "/static/js/main.bb17b23c.chunk.js",
+    "main.js.map": "/static/js/main.bb17b23c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09a36c86.js",
     "runtime-main.js.map": "/static/js/runtime-main.09a36c86.js.map",
     "static/js/2.f238589f.chunk.js": "/static/js/2.f238589f.chunk.js",
@@ -12,31 +12,12 @@
     "index.html": "/index.html",
     "static/css/main.4f7e7804.chunk.css.map": "/static/css/main.4f7e7804.chunk.css.map",
     "static/js/2.f238589f.chunk.js.LICENSE.txt": "/static/js/2.f238589f.chunk.js.LICENSE.txt",
-    "static/media/AAPL.24e4e5ab.png": "/static/media/AAPL.24e4e5ab.png",
-    "static/media/AMZN.d0f75f96.png": "/static/media/AMZN.d0f75f96.png",
-    "static/media/BABA.ed035e18.png": "/static/media/BABA.ed035e18.png",
-    "static/media/BRK.A.b268f8f1.png": "/static/media/BRK.A.b268f8f1.png",
-    "static/media/DIS.38f543f8.png": "/static/media/DIS.38f543f8.png",
-    "static/media/FB.f3299bd0.png": "/static/media/FB.f3299bd0.png",
-    "static/media/GOOG.aca522e8.png": "/static/media/GOOG.aca522e8.png",
-    "static/media/HD.76ff4698.png": "/static/media/HD.76ff4698.png",
-    "static/media/JNJ.3b6f1eec.png": "/static/media/JNJ.3b6f1eec.png",
-    "static/media/MSFT.b9af0234.png": "/static/media/MSFT.b9af0234.png",
-    "static/media/NVDA.bfc13ddc.png": "/static/media/NVDA.bfc13ddc.png",
-    "static/media/PG.882d30a2.png": "/static/media/PG.882d30a2.png",
-    "static/media/T.a9d6c05a.png": "/static/media/T.a9d6c05a.png",
-    "static/media/TSLA.d097546a.png": "/static/media/TSLA.d097546a.png",
-    "static/media/TWTR.d4d3a18a.png": "/static/media/TWTR.d4d3a18a.png",
-    "static/media/UNH.e33990e6.png": "/static/media/UNH.e33990e6.png",
-    "static/media/V.34f900fa.png": "/static/media/V.34f900fa.png",
-    "static/media/VZ.684e138f.png": "/static/media/VZ.684e138f.png",
-    "static/media/WMT.9edead1e.png": "/static/media/WMT.9edead1e.png",
     "static/media/logo-black.7dd68641.png": "/static/media/logo-black.7dd68641.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09a36c86.js",
     "static/js/2.f238589f.chunk.js",
     "static/css/main.4f7e7804.chunk.css",
-    "static/js/main.851f058f.chunk.js"
+    "static/js/main.bb17b23c.chunk.js"
   ]
 }
