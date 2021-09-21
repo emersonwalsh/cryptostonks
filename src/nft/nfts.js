@@ -2,6 +2,7 @@ import aapl from './images/AAPL.png';
 import amzn from './images/AMZN.png';
 import baba from './images/BABA.png';
 import brk from './images/BRK.A.png';
+import cmcs from './images/CMCS.A.png';
 import dis from './images/DIS.png';
 import fb from './images/FB.png';
 import goog from './images/GOOG.png';
@@ -58,6 +59,16 @@ const nfts = [
         price: 100,
         image: brk,
         link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837578368500367361',
+    },
+    {
+        name: 'Comcast Corporation',
+        ticker: 'CMCS.A',
+        number: 20,
+        status: 'available',
+        color: '#02a2f5',
+        price: 100,
+        image: cmcs,
+        link: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/101462779711471559355842706816510431388383555282882010510359837591562639900673',
     },
     {
         name: 'Disney',
