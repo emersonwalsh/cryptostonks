@@ -39,7 +39,11 @@ export default function Landing() {
                 </div>
             </div>
             <div className={styles.scrollButton}>
-                <Button variant="outlined" onClick={scroll}>
+                <Button variant="contained" onClick={scroll}
+                    style={{
+                    backgroundColor: '#5e72e4',
+                    color: 'white',
+                    }}>
                     Explore
                 </Button>
             </div>

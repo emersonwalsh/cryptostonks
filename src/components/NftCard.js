@@ -17,7 +17,8 @@ export default function NftCard(props) {
                     {props.nft.link && 
                         <Button variant="contained" onClick={handleClick}
                           style={{
-                            backgroundColor: props.nft.color,
+                            // backgroundColor: props.nft.color || '#000000',
+                            backgroundColor: '#5e72e4',
                             color: 'white',
                             }}>
                             Buy
